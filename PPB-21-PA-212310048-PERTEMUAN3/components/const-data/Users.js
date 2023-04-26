@@ -1,0 +1,76 @@
+const Users = [
+    {
+      id: 1,
+      name: "Zaki",
+      fullname:"Zaki Aljabbar",
+      gender: "M",
+      isread: true,
+      caption: "UI UX", 
+      images: require("../../assets/Feeds/UI.jpg"), 
+    },
+    {
+      id: 2,
+      name: "Adrian",
+      fullname:"Adrian Adhari",
+      gender: "M",
+      isread: false,
+      caption: "Chill", 
+      images: require("../../assets/Feeds/cafe.jpg"), 
+    },
+    {
+      id: 3,
+      name: "Hana",
+      fullname:"Hana Yulia Rahmah",
+      gender: "F",
+      isread: false,
+      caption: "Si Meong lucu bgt", 
+      images: require("../../assets/Feeds/cat.jpg"), 
+    },
+    {
+      id: 4,
+      name: "Aditya",
+      fullname:"Aditya Putra",
+      gender: "M",
+      isread: false,
+      caption: "Jalan kaki tau tau udah sampe sini aja",
+      images: require("../../assets/Feeds/Everest.jpg"), 
+    },
+    {
+      id: 5,
+      name: "Cindy",
+      fullname:"Cindy Kevina",
+      gender: "F",
+      isread: false,
+      caption: "Iseng iseng motoin bunga", 
+      images: require("../../assets/Feeds/flower.jpg"), 
+    },
+    {
+      id: 6,
+      name: "Erdiana",
+      fullname:"Erdiana Ragil Syawala",
+      gender: "F",
+      isread: true,
+      caption: "Duh kerjaan gk kelar kelar", 
+      images: require("../../assets/Feeds/laptop.jpg"), 
+    },
+    {
+      id: 7,
+      name: "Fawas",
+      fullname:"Mohamad Fawaz Tauhid Ridho",
+      gender: "M",
+      isread: true,
+      caption: "Info yang jual sepatu begini", 
+      images: require("../../assets/Feeds/dcmartens.jpg"),
+    },
+    {
+      id: 8,
+      name: "Nagasa",
+      fullname: "Nagasa Anandes Putra Ramadhan",
+      gender: "M",
+      isread: false,
+      caption: "NOT FOR SALE",
+      images : require("../../assets/Feeds/ducati.jpg")
+    }
+  ];
+
+export {Users};
